@@ -3,7 +3,7 @@ const tombol = document.querySelector(".container-tombol");
 const layar = document.querySelector("#layar");
 
 //jika tombol angka di klik oleh user
-tombol.addEventListener("click" function(e)){
+tombol.addEventListener("click", function (e) {
  let tomboldiClick = e.target;
  let nilaiTombol = tomboldiClick.innerText;
 
